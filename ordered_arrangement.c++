@@ -1,9 +1,3 @@
-//partition 'n' into positive integers
-
-//here both bottom up and top down approaches are coded
-
-//code:-
-
  #include<bits/stdc++.h>
  
  #define int long long int
@@ -69,9 +63,14 @@ int countWaysOrdered(int n){
    cout<<dp[n]<<endl;
 
 
+   //third approach
+
+   //ans is 2^(n-1)
+
+   cout<<((1<<(n-1)))<<endl;
+
+
  
  
       return 0;
   }
-
-
